@@ -11,8 +11,8 @@ define('REDIRECT_URI','USE-HTTP-URL');
 define('imageDirectory','pics/');
 
 //connect with Instagram
-{
-  function connectToInstagram($url)
+
+  function connectToInstagram($url){
     $ch = curl_init();
 
     curl_setopt_array($ch, array(
